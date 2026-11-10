@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>浮光 · 隐私政策</title>
+<style>
+  :root {
+    --fg: #1c1c1e;
+    --fg-soft: #6b6b72;
+    --line: #e6e6ea;
+    --bg: #fff;
+    --bg-soft: #f7f7f9;
+    --accent: #4a6fa5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #e8e8ec;
+      --fg-soft: #9a9aa4;
+      --line: #2e2e34;
+      --bg: #16161a;
+      --bg-soft: #1d1d22;
+      --accent: #8fb3e0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 56px 24px 80px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                 "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-size: 15px;
+    line-height: 1.85;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--fg-soft); font-size: 13px; margin: 0 0 36px; }
+  h2 {
+    font-size: 15px; font-weight: 600; margin: 30px 0 8px;
+    padding-top: 18px; border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+  p { margin: 0 0 10px; }
+  ul { margin: 0 0 10px; padding-left: 20px; }
+  li { margin: 0 0 4px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .abstract {
+    margin: 0 0 34px;
+    padding: 13px 17px;
+    border-left: 3px solid var(--accent);
+    background: var(--bg-soft);
+    border-radius: 0 6px 6px 0;
+    font-size: 13.5px;
+    line-height: 1.75;
+    color: var(--fg-soft);
+  }
+  .abstract p { margin: 0 0 6px; }
+  .abstract p:last-child { margin-bottom: 0; }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>浮光 · 隐私政策</h1>
+  <p class="sub">最后更新：2026 年 11 月 10 日</p>
+
+  <div class="abstract">
+    <p><strong>Summary</strong></p>
+    <p>This extension collects no personal data. There is no account system, no backend server, no analytics, and it does not share data with any third party.</p>
+    <p>Your groups, links and settings are stored by your browser; if you are signed in, your browser may sync them across your devices. Background images and custom icons stay on this device only.</p>
+  </div>
+
+  <h2>一、信息收集</h2>
+  <p>浮光不收集任何个人信息。没有账号系统，没有服务器，没有统计埋点，没有广告组件。</p>
+
+  <h2>二、数据存储</h2>
+  <p>你在扩展里的配置——分组、链接、背景图、自定义图标——由你的浏览器保存。其中分组、链接和界面设置会经由浏览器自带的账号同步功能同步到你登录的其他设备；背景图和自定义图标只存在本机。</p>
+  <p>浮光不会把这些数据发送给任何第三方。经浏览器账号同步的那部分，由浏览器按你的账号设置处理。</p>
+
+  <h2>三、权限用途</h2>
+  <ul>
+    <li><strong>storage / unlimitedStorage</strong>：保存上述配置与背景图。</li>
+    <li><strong>favicon</strong>：读取浏览器本地已缓存的站点图标，用于显示你添加的链接。本地没有缓存时，由浏览器自行向该网站请求图标，浮光不介入这一过程。该接口不提供访问浏览历史的能力。</li>
+  </ul>
+
+  <h2>四、第三方共享</h2>
+  <p>无。扩展不集成第三方服务、SDK 或广告，不向任何第三方出售、共享数据。</p>
+  <p>扩展本身不发起网络请求。你在搜索框里输入的内容会直接作为查询词交给所选的搜索引擎（必应 / Google / 百度），扩展不记录、不中转这些内容。</p>
+
+  <h2>五、数据删除</h2>
+  <p>设置面板「数据」中提供「导出备份」和「清空数据」，可以随时导出或删除自己的数据。该扩展的存储数据会随卸载被浏览器清除，具体清理方式由浏览器决定。</p>
+
+  <h2>六、联系方式</h2>
+  <p>如有疑问，请发邮件至 <a href="mailto:augenstern_f@163.com">augenstern_f@163.com</a>。</p>
+  <p>本政策如有变更，本页面的更新日期会同步修改。</p>
+
+</main>
+</body>
+</html>
